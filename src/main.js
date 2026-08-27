@@ -21,7 +21,9 @@ document.querySelector('#app').innerHTML = `
       <p class="opening-name">Elsa Futri</p>
         <h1>A little world of mine.</h1>
 
-        <a href="#about" class="enter-button">Enter</a>
+        <div class="enter-group">
+          <a href="#about" class="enter-button">Enter</a>
+        </div>
     </div>
   </section>
 `

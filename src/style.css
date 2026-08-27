@@ -138,6 +138,19 @@ nav button {
   text-transform: uppercase;
 }
 
+.enter-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.enter-line {
+  width: 32px;
+  height: 1px;
+  background: var(--line);
+}
+
 @media (max-width: 768px) {
   nav {
     width: calc(100% - 24px);
